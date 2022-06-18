@@ -2,7 +2,7 @@ def find_next_empty(puzzle):
     #find the next row,col on puzzle that's not yet filled --> rep with -1
     #return row,col tuple or (none,none)if there is none
 
-    #keep in mind that we are using 0-8 four our indices
+    #keep in mind that we are using 0-8 for our indices
     for r in range(9):
         for c in range(9):# range(9) is o....8
             if puzzle[r][c] == -1:
